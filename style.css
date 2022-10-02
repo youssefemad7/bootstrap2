@@ -1,0 +1,426 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav img 
+{
+    width: 130px;
+    height: 90px;
+}
+nav 
+{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+nav button
+{
+    position: relative;
+    left: 600px;
+    border: 1px solid white;
+    background-color: white;
+    color: blueviolet;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    z-index: 5;
+}
+nav button:hover 
+{
+    transform: translateY(-0.25em);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.245);
+}
+nav h1
+{
+    border-bottom: 3px solid blueviolet;
+    margin-left: 20px;
+    font-weight: 100;
+}
+nav h2 
+{
+    margin-left: 50px;
+    font-weight: 100;
+
+}
+.img1
+{
+    width: 100%;
+    height: 750px;
+    z-index: -1;
+}
+.img2
+{
+    width: 100%;
+    position: relative;
+    bottom: 170px;
+    right: 400px;
+}
+
+.img4
+{
+    position:absolute;
+    width: 750px;
+    left: 750px;
+    top: 50px;
+}
+.img3
+{
+    position:absolute;
+    height: 500px;
+    width: 250px;
+    left: 970px;
+    top: 85px;
+    z-index: 5;
+}
+.img5
+{
+    position:absolute;
+    width: 500px;
+    height: 300px;
+    left: 870px;
+    top: 480px;
+    z-index: 6;
+}
+.div1
+{
+    display: flex;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    font-size: 40px;
+    
+
+}
+.div1 h2
+{
+color: blueviolet;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+.div1 h1 
+{
+    color: rgb(94, 94, 94);
+}
+.sec1 p 
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    top: 360px;
+    left: 130px;
+    font-size: 25px;
+    color:rgb(94,94,94) ;
+   
+}
+.img6
+{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 330px;
+    bottom: 200px;
+}
+.img7
+{
+    width:150px;
+    position: absolute;
+    left: 250px;
+    top: 905px;
+    z-index: 9;
+}
+.img8
+{ 
+    width:150px;
+    height: 150px;
+    position: absolute;
+    left: 720px;
+    top: 1050px;
+    z-index: 15;
+}
+.img9
+{ 
+    width:250px;
+    height: 180px;
+    position: absolute;
+    left: 1100px;
+    top: 1355px;
+}
+.div3 h1
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 250px;
+    top: 1020px;
+    font-size: 17px;
+    color: grey;
+}
+.div3 p
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 210px;
+    top: 1050px;
+    font-size: 17px;
+    color: grey;
+
+}
+.div3 h2
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 190px;
+    top: 1080px;
+    font-size: 17px;
+    color: grey;
+    font-weight: 100;
+
+}
+.div4 h1
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 730px;
+    top: 1220px;
+    font-size: 17px;
+    color: grey;
+}
+.div4 p
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 650px;
+    top: 1260px;
+    font-size: 17px;
+    color: grey;
+}
+.div4 h2
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 685px;
+    top: 1280px;
+    font-size: 17px;
+    color: grey;
+    font-weight: 100;
+}
+.div5 h1
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 1195px;
+    top: 1550px;
+    font-size: 17px;
+    color: grey;
+}
+.div5 p
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 1080px;
+    top: 1580px;
+    font-size: 17px;
+    color: grey;
+}
+.div5 h2
+{
+    font-family: 'Cairo', sans-serif;
+    position: absolute;
+    left: 1070px;
+    top: 1600px;
+    font-size: 17px;
+    color: grey;
+    font-weight: 100;
+}
+.div6 img
+{
+    position: relative;
+    bottom: 250px;
+    width:450px;
+    left:150px;
+}
+.div7
+{
+    position: absolute;
+    left: 290px;
+    top: 1450px;
+    font-family: 'Cairo', sans-serif;   
+    color: white;
+}
+.div7 h1 
+{
+    font-size: 50px;
+}
+.sec3 
+{    
+
+    position: absolute;
+    left: 180px;
+}
+.img11
+{
+
+    position: relative;
+    left: 50px;
+}
+.img12
+{
+    position: relative;
+    left: 80px;
+}
+.div8
+{
+    position: absolute;
+    left: 480px;
+    font-family: 'Cairo', sans-serif;   
+
+}
+.div8 h1
+{
+    margin-bottom: 20px;
+    position: relative;
+    right: 5px;
+    font-size: 27px;
+    font-weight: 100;
+
+}
+.div8 h2 
+{
+    color: gray;
+    font-weight: 100;
+}
+.div8 h3 
+{
+    color: gray;
+    position: relative;
+    left: 50px;
+    font-weight: 100;
+}
+footer
+{
+    margin-top: 700px;
+    width: 1670px;
+    overflow: hidden;
+}
+
+.img14
+{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    left: 695px;
+    top: 2780px;
+    z-index: 30;
+} 
+.img13
+{
+    width: 1519px;    
+    
+    position: absolute;
+   
+}
+.img15 
+{
+    position: absolute;
+    left: 150px;
+    top:3100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px  75px 10px 15px;
+}
+.divimg15
+{
+    position: absolute;
+    top: 3110px;
+    left:200px;
+    font-size: 7px;
+    padding-right: 5px;
+    color: gray;
+    font-family: 'Cairo', sans-serif;   
+
+
+}
+
+
+.img16 
+{
+    position: absolute;
+    left: 300px;
+    top:3100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px  75px 10px 15px;
+    
+}
+.divimg16
+{
+    
+        position: absolute;
+        top: 3110px;
+        left:350px;
+        font-size: 7px;
+        padding-right: 5px;
+        color: gray;
+        font-family: 'Cairo', sans-serif;   
+    
+    
+}
+.finalicon
+{
+    position: absolute;
+    padding-right: 5px;
+    left: 150px;
+    top:3170px;
+    font-size: 50px;
+}
+.final
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Cairo', sans-serif;   
+    left: 150px;
+    top:3235px;
+    color: white;
+    padding-right:50px ;
+}
+.final h1
+{
+    font-size: 15px;
+    font-weight: 100;
+}
+.final h2
+{
+    position: absolute;
+    left:100px;
+    font-size: 15px;
+    font-weight: 100;
+
+
+}
+.final h3
+{
+    position: relative;
+    left:150px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.final h4
+{
+    position: relative;
+    left:200px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
